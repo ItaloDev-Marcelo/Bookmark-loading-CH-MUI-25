@@ -6,10 +6,10 @@ import Error from '../assets/images/icon-error.svg';
 import Hamburger from '../assets/images/icon-hamburger.svg';
 import Logo from '../assets/images/logo-bookmark.svg';
 import Chrome from '../assets/images/logo-chrome.svg';
-import Firefox from '../assets/images/icon-firefox.svg';
+import Firefox from '../assets/images/logo-firefox.svg';
 import Opera from '../assets/images/logo-opera.svg';
 import Dots from '../assets/images/bg-dots.svg';
-import Hero from '../assets/images/illustration-hero.svg'
+import Hero from '../assets/images/illustration-hero.svg';
 import FeaturesTab1 from '../assets/images/illustration-features-tab-1.svg';
 import FeaturesTab2 from '../assets/images/illustration-features-tab-2.svg';
 import FeaturesTab3 from '../assets/images/illustration-features-tab-3.svg';

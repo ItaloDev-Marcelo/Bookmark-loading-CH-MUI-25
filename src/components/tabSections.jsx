@@ -4,7 +4,7 @@ import ButtonCamp from './buttonCom';
 const TabSection = ({heroImage, Title, SubTitle}) => {
     return (
       <Stack component='section' className='TabSection-container'>
-          <Box>
+          <Box >
               <img src={heroImage} alt='' />
           </Box>
           <Stack component='section' >
