@@ -1,7 +1,7 @@
 import {Stack, Typography, Box} from '@mui/material';
 
 
-export default function NavBar(){
+export default function MobileBar(){
     return (
          <Stack component='nav'>
              
