@@ -1,6 +1,6 @@
 
 import { useForm } from "react-hook-form";
-
+import Images from '../imageBank';
 export default function Form(){
 
     const {register, handleSubmit, formState: {errors}}  = useForm();
@@ -17,9 +17,9 @@ export default function Form(){
             <input {...register('email',{required:"Whoops,makesure it's an email",
                  pattern: {value:  /^\S+@\S+$/i , message: 'Email must have @gamil.com'}})}
                   type='text' name='email' id='email' placeholder='Enter your email address' />
-           {errors.email && <p>{errors.email.message} <img src='ss' alt="error icon"/>  </p>} 
+           {errors.email && <p>{errors.email.message} <img src={Images.error} alt="error icon"/>  </p>} 
            </label>
-           <button type="submit">Contact</button>
+           <button type="submit" style={{backgroundColor: 'red', color: 'white'}} >Contact</button>
        </form>
     )
 }

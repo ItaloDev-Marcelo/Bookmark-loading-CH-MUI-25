@@ -9,6 +9,7 @@ import Chrome from '../assets/images/logo-chrome.svg';
 import Firefox from '../assets/images/logo-firefox.svg';
 import Opera from '../assets/images/logo-opera.svg';
 import Dots from '../assets/images/bg-dots.svg';
+import LogoWhite from '../assets/images/logo-bookmark-white.svg';
 import Hero from '../assets/images/illustration-hero.svg';
 import FeaturesTab1 from '../assets/images/illustration-features-tab-1.svg';
 import FeaturesTab2 from '../assets/images/illustration-features-tab-2.svg';
@@ -23,10 +24,12 @@ const imageBank = {
     error: Error,
     hamburger: Hamburger,
     logo: Logo,
+    logoWhite: LogoWhite,
     logoChrome: Chrome,
     logoFirefox: Firefox,
     logoOpera: Opera,
     dots: Dots,
+    hero: Hero,
     featuresTab1: FeaturesTab1,
     featuresTab2: FeaturesTab2,
     featuresTab3: FeaturesTab3

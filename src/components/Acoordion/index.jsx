@@ -7,9 +7,9 @@ export default function AccordionComp() {
        <Box>
           <Accordion>
             <AccordionSummary
-            expandIcon={KeyboardArrowUpIcon}
-            aria-controls='painel-content1'
-            id='painel-header1'
+            expandIcon={<KeyboardArrowUpIcon/>}
+            aria-controls='painel1-content'
+            id='painel1-header'
             >
             <Typography component='span'> What is Bookmark?</Typography>   
             </AccordionSummary>
@@ -20,7 +20,7 @@ export default function AccordionComp() {
           </Accordion>
           <Accordion>
             <AccordionSummary
-            expandIcon={KeyboardArrowUpIcon}
+            expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content2'
             id='painel-header2'
             >
@@ -35,7 +35,7 @@ export default function AccordionComp() {
           </Accordion>
           <Accordion>
             <AccordionSummary
-            expandIcon={KeyboardArrowUpIcon}
+            expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content3'
             id='painel-header3'
             >
@@ -49,7 +49,7 @@ export default function AccordionComp() {
           </Accordion>
           <Accordion>
             <AccordionSummary
-            expandIcon={KeyboardArrowUpIcon }
+            expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content4'
             id='painel-header4'
             >

@@ -12,7 +12,7 @@ const VoucherCards = ({Icon, Alt, Title, SubTitle}) => {
             </CardContent>
             <CardActions>
                 <ButtonCamp ButtonLabel='Add & install Extension' 
-                Wd={400} Cl='White' BColor='blue' />
+                Wd={250} Cl='White' BColor='blue' />
             </CardActions>
          </Card>
     )
