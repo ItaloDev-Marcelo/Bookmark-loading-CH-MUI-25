@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Stack component="header">
+        
         <Stack component="section">
           <Typography variant="h2">A Simple Bookmark Manager</Typography>
           <Typography variant="p">
