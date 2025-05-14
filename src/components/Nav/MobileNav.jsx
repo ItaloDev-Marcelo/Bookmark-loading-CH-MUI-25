@@ -13,12 +13,35 @@ export default function MobileBar(){
     }
 
     return (
-         <Stack component='nav' className=''>
-             <Link href='index.html'> <img src={imageBank.logo} alt='logo'/> </Link>
-             <Button  aria-description='menu toggle' onClick={toggleMenu}><img src={open ? imageBank.close : imageBank.hamburger } alt='logo'/></Button>
-             <Stack id='navegation-Bar' display={{xs: open ? 'block' : 'none', lg: 'none'}}>
+         <Stack component='nav' sx={{display: {xs: 'flex', lg: 'none'}, 
+         flexDirection: 'row', justifyContent: 'space-between', background: 'red', 
+         padding: '1em'}}>
+             <Link href='index.html' sx={{display: !open ? 'block' : 'none'}}> <img src={imageBank.logo} alt='logo'/> </Link>
+             <Button sx={{display: !open ? 'block' : 'none'}}  aria-description='menu toggle' onClick={toggleMenu}>
+                <img src={imageBank.hamburger} alt='logo'/>
+            </Button>
+             <Stack id='navegation-Bar' sx={{position: 'absolute', top: 0, left: 0,
+              display: open ? 'flex' : 'none', lg: 'none', flexDirection: 'column', 
+              alignItems: 'center' }}
+              >
+
+                <Stack  sx={{display: 'flex', 
+         flexDirection: 'row', justifyContent: 'space-between'}}>
+            <Button   onClick={toggleMenu}>
+                 <img src={imageBank.logoWhite} alt="logo" />
+            </Button>
+                    <Button sx={{position: 'relative', left: '10%'}}  aria-description='menu toggle' onClick={toggleMenu}>
+                <img src={imageBank.close} alt='logo'/>
+            </Button>
+
+               
+                </Stack>
+                 
+                   
+                              
                   <ListCamp  />
-                  <Stack>
+                  <Stack  sx={{display: 'flex', 
+         flexDirection: 'row', justifyContent: 'space-between',width: '100px', padding: '1em'}}>
                      <FacebookIcon />
                      <TwitterIcon/>
                   </Stack>

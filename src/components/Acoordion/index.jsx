@@ -60,7 +60,7 @@ export default function AccordionComp() {
   vitae neque eget nisl gravida pellentesque non ut velit.
             </AccordionDetails>
           </Accordion>
-          <ButtonCamp ButtonLabel='More info' Wd='100px' Cl='white' BColor='blue' />
+          <ButtonCamp ButtonLabel='More info' Wd='100px' Cl='white' BColor=' hsl(231, 69%, 60%)' />
        </Box>
     ) 
 }

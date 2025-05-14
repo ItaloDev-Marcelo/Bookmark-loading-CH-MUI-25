@@ -1,14 +1,124 @@
-.TabSection-container img {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  
+    font-family: "Rubik", sans-serif;
+}
+
+
+body {
+  font-size: 1.125em;
+}
+
+:root {
+  --Blue-600: hsl(231, 69%, 60%);
+  --Red-400: hsl(0, 94%, 66%);
+  --Grey-50: hsl(0, 0%, 97%);
+  --Blue-950: hsl(229, 31%, 21%);
+}
+
+img {
   max-width: 100%;
 }
 
+h2 {
+  font-size: 1.7em !important;
+}
 
-.list {
+button {
+  font-size: .7em !important;
+  padding: .5em  !important; 
+}
+
+ 
+#btn-row  >  div button, #btn-row  >  button{
+  height: 40px;
+}
+
+/* tab-container */
+
+
+.navegation-tab  {
+  position: relative;
+  }
+
+#tab-container div button {
+  padding: 1em 0;
+}
+
+
+
+/* voucher-cards */
+
+
+.card {
+  width: 250px;
+  height: 325px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  padding: 1em;
-  color: #242A45;
+  align-items: center;
+  text-align: center;
+  margin: 2em 0;
+  background-image: url(./assets/images/bg-dots.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
+
+.card .card-content {
+  padding: 2em 0;
+}
+
+.card h3 {
+  font-size: 1.5em;
+}
+
+.card img {
+  width: 50%;
+}
+
+
+@media (min-width: 1200px) {
+  
+.navegation-tab  {
+  position: relative;
+  width: 50%;
+  border-bottom : 1px solid grey;
+}
+
+#tab-container div button {
+  padding: 1em 0;
+}
+
+.navegation-tab hr {
+  display: none;
+}
+
+.card {
+  width: 275px;
+  height: 325px;
+  margin: 2em 1em;
+}
+
+.card button {
+  height: 40px;
+  margin-bottom: -2em;
+}
+
+.card img {
+  width: 75%;
+}
+
+.card:nth-child(2) {
+  margin-top: 5em;
+}
+
+.card:nth-child(3) {
+  margin-top: 10em;
+}
+
+}
+
 

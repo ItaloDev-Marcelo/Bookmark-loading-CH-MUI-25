@@ -7,7 +7,9 @@ const ListCamp = () => {
       <ListItem> Features </ListItem>
       <ListItem> Pricing </ListItem>
       <ListItem> Contact </ListItem>
-      <ListItemButton sx={{backgroundColor: 'red', color: 'white', borderRadius: '7px'}}> Login </ListItemButton>
+      <ListItemButton sx={{backgroundColor: {xs: 'transparent', lg: 'red'}, color: 'white',
+       borderRadius: '7px', 
+       border: {xs: '1px solid #fff', lg: 'none'}}}> Login </ListItemButton>
     </List>
   );
 };
