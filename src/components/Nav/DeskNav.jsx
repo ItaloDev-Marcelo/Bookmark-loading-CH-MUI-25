@@ -1,6 +1,6 @@
 import {Stack, Link} from '@mui/material';
-import imageBank from '../imageBank';
-import ListCamp from '../ListComp';
+import imageBank from '../comum-components/imageBank';
+import ListCamp from '../comum-components/ListComp';
 
 export default function DeskBar(){
   

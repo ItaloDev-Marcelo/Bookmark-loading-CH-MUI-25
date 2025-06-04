@@ -1,6 +1,6 @@
 
 import { useForm } from "react-hook-form";
-import Images from '../imageBank';
+import Images from '../comum-components/imageBank';
 export default function Form(){
 
     const {register, handleSubmit, formState: {errors}}  = useForm();

@@ -1,5 +1,5 @@
 import {Card, CardContent, CardActions, Box, Typography} from '@mui/material';
-import ButtonCamp  from './buttonCom';
+import ButtonCamp  from '../comum-components/buttonCom';
 const VoucherCards = ({Icon, Alt, Title, SubTitle}) => {
     return (
          <Card elevation={1} className='card' position='relative'>

@@ -4,7 +4,8 @@ import SimpleBook from './Home/simpleBook' ;
 import EasyShering  from './Home/easyShering';
 import SpeedySearching  from './Home/speedySearching';
 export default function HomeArea() {
-    const [tab, setTab] = useState('1');
+
+  const [tab, setTab] = useState('1');
     
    const NavTab = (value) => {
      setTab(value)
@@ -17,7 +18,6 @@ export default function HomeArea() {
              <Stack className='navegation-tab' sx={{margin: {xs: '1em 0', lg: '1.2em auto'}, display: 'flex',
                flexDirection: {xs: 'column', lg: 'row'}, 
                justifyContent: {lg: 'space-between'}, padding: '1em 0'}}>
-
                  <hr/>
                  <Button onClick={() => NavTab('1')}>Simple Bookmarking</Button>
                  <hr/>

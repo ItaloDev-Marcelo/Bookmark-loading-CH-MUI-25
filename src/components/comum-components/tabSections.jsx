@@ -1,5 +1,5 @@
 import {Stack, Typography, Box} from '@mui/material';
-import ButtonCamp from './buttonCom';
+import ButtonCamp from '../comum-components/buttonCom';
 
 const TabSection = ({heroImage, Title, SubTitle}) => {
     return (

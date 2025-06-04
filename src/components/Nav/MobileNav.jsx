@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {Stack, Button, Link} from '@mui/material';
-import imageBank from '../imageBank';
-import ListCamp from '../ListComp';
+import imageBank from '../comum-components/imageBank';
+import ListCamp from '../comum-components/ListComp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 

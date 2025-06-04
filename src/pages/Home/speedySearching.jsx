@@ -1,5 +1,5 @@
 import TabSection from '../../components/tabSections';
-import Images from '../../components/imageBank';
+import Images from '../../components/comum-components/imageBank';
 
 export default function EasyShering() {
     return (

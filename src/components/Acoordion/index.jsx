@@ -1,5 +1,5 @@
 import {Accordion, AccordionSummary, AccordionDetails, Typography, Box} from '@mui/material'
-import ButtonCamp from '../buttonCom'
+import ButtonCamp from '../comum-components/buttonCom'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 export default function AccordionComp() {
