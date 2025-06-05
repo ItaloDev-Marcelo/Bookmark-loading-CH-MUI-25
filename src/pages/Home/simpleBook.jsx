@@ -1,4 +1,4 @@
-import TabSection from '../../components/tabSections';
+import TabSection from '../../components/comum-components/tabSections';
 import Images from '../../components/comum-components/imageBank';
 
 export default function SimpleBook() {

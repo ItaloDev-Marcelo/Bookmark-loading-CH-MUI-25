@@ -23,9 +23,6 @@ img {
   max-width: 100%;
 }
 
-h2 {
-  font-size: 1.7em !important;
-}
 
 button {
   font-size: .7em !important;
@@ -77,6 +74,88 @@ button {
   width: 50%;
 }
 
+#navegation-Bar {
+  background-color: var(--Blue-950) ;
+  opacity: .97;
+}
+
+#navegation-Bar > ul  li{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navegation-Bar > ul { 
+  width: 77%;
+}
+
+#navegation-Bar > ul > li  {
+  position: relative;
+ margin: 0.7em 0;
+ padding-top: .7em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#navegation-Bar ul  div  {
+  margin-top: 2em ;
+  width: 100%;
+}
+
+#navegation-Bar li button {
+  padding: 1.1em 0;
+  margin-top: 2em;
+  background-color: transparent;
+  min-width: 105%;
+  height: 45px;
+  outline: 2px solid #fff;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+
+#navegation-Bar > ul  li:nth-of-type(1):after, 
+#navegation-Bar > ul  li:nth-of-type(3):after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3em;
+  left: .5em;
+  
+  width: 95%;
+  height: 1px;
+  background-color: antiquewhite;
+  opacity: .5;
+}
+
+#navegation-Bar > ul  li:nth-of-type(3):after {
+  top: -.5em;
+}
+
+
+#navegation-Bar > ul  li:nth-of-type(1)::before,
+ #navegation-Bar > ul  li:nth-of-type(3)::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.7em;
+  left: .5em;
+  
+  opacity: .5;
+  width: 95%;
+  height: 1px;
+  background-color: antiquewhite;
+}
+
+
+ #navegation-Bar > ul  li:nth-of-type(3)::before {
+  top: 3.2em;
+ }
+
+
 
 @media (min-width: 1200px) {
   
@@ -115,6 +194,19 @@ button {
 
 .card:nth-child(3) {
   margin-top: 10em;
+}
+
+#desk-nav  button{
+   width: 145px;
+   height: 45px;
+   border: none;
+   outline: none;
+   border-radius: 7px;
+   background-color: var(--Red-400);
+   text-transform: uppercase;
+   color:#fff;
+   letter-spacing: 2px;
+   font-size: .8em !important;
 }
 
 }
