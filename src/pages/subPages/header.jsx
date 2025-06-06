@@ -14,8 +14,7 @@ export default function Header() {
                     textAlign: {xs: 'center', lg: 'left'}}} >
         
                     <Stack  sx={{display: 'flex', 
-                   flexDirection: 'column',justifyContent: 'center',
-                    alignItems: {xs: 'center', lg: 'flex-start'}}} 
+                   flexDirection: 'column',justifyContent: 'center',alignItems: {xs: 'center', lg: 'flex-start'}}} 
                       width={{lg: 500}} >
                      <Typography variant="h2" marginY='.5em' fontSize={{xs: '1.7em', lg:'2.7em'}}>A Simple Bookmark Manager</Typography>
                    <Typography  variant="p" fontSize={{xs: '.8em', lg:'1em'}} 

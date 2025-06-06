@@ -18,8 +18,8 @@ export default function Main() {
                     <TabSlider  />
                   </Box>
                 </Stack>
-                <Stack component="section" sx={{padding: {xs: '1em' ,lg: '2em 3em'}, textAlign: 'center' }} >
-                  <Typography variant="h2"> Download the extension</Typography>
+                <Stack component="section" sx={{padding: {xs: '1em' ,lg: '4em 3em 3em 2em'}, textAlign: 'center' }} >
+                  <Typography variant="h2" fontSize={{xs: '1em', lg: '1.5em'}} > Download the extension</Typography>
                   <Typography variant="p"  padding={{xs: '2em', lg: ' 2em 20em'}}>
                     We’ve got more browsers in the pipeline. Please do let us know if
                     you’ve got a favourite you’d like us to prioritize.

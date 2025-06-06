@@ -21,11 +21,11 @@ export default function TabSlider() {
                flexDirection: {xs: 'column', lg: 'row'}, 
                justifyContent: {lg: 'space-between'}, padding: '1em 0'}}>
                  <hr className={tabStyle.hrSpace} />
-                 <Button onClick={() => NavTab('tabOne')}>Simple Bookmarking</Button>
+                 <Button onClick={() => NavTab('tabOne')} className={tab === 'tabOne' ? 'tab active' : 'tab'} >Simple Bookmarking</Button>
                  <hr className={tabStyle.hrSpace}/>
-                 <Button onClick={() => NavTab('tabTwo')}>Speedy Searching</Button>
+                 <Button onClick={() => NavTab('tabTwo')} className={tab === 'tabTwo' ? 'tab active' : 'tab'}>Speedy Searching</Button>
                  <hr className={tabStyle.hrSpace}/>
-                 <Button onClick={() => NavTab('tabThree')}>Easy Sharing</Button>
+                 <Button onClick={() => NavTab('tabThree')}  className={tab === 'tabThree' ? 'tab active' : 'tab'}>Easy Sharing</Button>
                  <hr className={tabStyle.hrSpace}/>
              </Stack>
              <Stack className='tab-slider'>

@@ -155,6 +155,37 @@ button {
   top: 3.2em;
  }
 
+.tab {
+  position: relative;
+  color: #000 !important;
+}
+
+
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom:-19px;
+  left:25%;
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: var(--Red-400);  
+}
+
+.tab:hover {
+  color: var(--Red-400) !important;
+}
+
+
+
+
+.dots {
+  position: relative;
+  top: -15px;
+}
+
+
 
 
 @media (min-width: 1200px) {
@@ -164,6 +195,18 @@ button {
   width: 50%;
   border-bottom : 1px solid grey;
 }
+
+.tab.active::after {
+  bottom:-19px;
+  left:0;
+  width: 100%;
+}
+
+.tab:nth-of-type(2) {
+   position: relative;
+   left: -1em;
+}
+
 
 #tab-container div button {
   padding: 1em 0;
