@@ -12,7 +12,7 @@ export default function Form(){
 
 
     return (
-       <form onSubmit={handleSubmit(onSubmitForm)}>
+       <form onSubmit={handleSubmit(onSubmitForm)} sx={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
            <label htmlFor="email">
             <input {...register('email',{required:"Whoops,makesure it's an email",
                  pattern: {value:  /^\S+@\S+$/i , message: 'Email must have @gamil.com'}})}

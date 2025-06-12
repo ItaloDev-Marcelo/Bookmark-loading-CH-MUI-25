@@ -1,11 +1,11 @@
 import {Accordion, AccordionSummary, AccordionDetails, Typography, Box} from '@mui/material'
-import ButtonCamp from '../comum-components/buttonCom'
+// import ButtonCamp from '../comum-components/buttonCom'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 export default function AccordionComp() {
     return (
-       <Box>
-          <Accordion>
+       <Box sx={{marginTop: '1em', padding: '1em 0'}}>
+          <Accordion  sx={{ boxShadow: 'none', borderBottom: '1px solid gray'  }}>
             <AccordionSummary
             expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel1-content'
@@ -18,7 +18,7 @@ export default function AccordionComp() {
   justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion  sx={{ boxShadow: 'none', borderBottom: '1px solid gray'   }}>
             <AccordionSummary
             expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content2'
@@ -33,7 +33,7 @@ export default function AccordionComp() {
   Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion  sx={{ boxShadow: 'none', borderBottom: '1px solid gray'   }}>
             <AccordionSummary
             expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content3'
@@ -47,7 +47,7 @@ export default function AccordionComp() {
   sollicitudin ex et ultricies bibendum.
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion  sx={{ boxShadow: 'none', borderBottom: '1px solid gray'   }}>
             <AccordionSummary
             expandIcon={<KeyboardArrowUpIcon/>}
             aria-controls='painel-content4'
@@ -60,7 +60,6 @@ export default function AccordionComp() {
   vitae neque eget nisl gravida pellentesque non ut velit.
             </AccordionDetails>
           </Accordion>
-          <ButtonCamp ButtonLabel='More info' Wd='100px' Cl='white' BColor=' hsl(231, 69%, 60%)' />
        </Box>
     ) 
 }

@@ -9,7 +9,10 @@ import { List, ListItem } from "@mui/material";
 export default function Footer() {
     return (
         <>
-         <Stack component="footer" backgroundColor='grey' >
+         <Stack component="footer"  sx={{display: 'flex',
+           flexDirection: 'column',
+           justifyContent: 'center',
+            alignItems: 'center', background: 'pink'}} >
                  <Stack component="section">
                    <Typography variant="h4"> 35,000+ already joined</Typography>
                    <Typography variant="h5">
@@ -22,7 +25,7 @@ export default function Footer() {
                      <img src={imageBank.logoWhite} alt="logo" />
                    </Link>
                    <Stack
-                     id="navegation-Bar"
+                     id="footer-nav"
                    >
                      <List
                        sx={{

@@ -1,6 +1,7 @@
 import TabSlider from "../layout/index"
 import imageBank from "../../components/comum-components/imageBank";
 import VoucherCards from "../../components/comum-components/voucherCard";
+import ButtonCamp from "../../components/comum-components/buttonCom"
 import AccordionSection from "../../components/Acoordion/index";
 import { Stack, Typography, Box } from "@mui/material";
 
@@ -45,13 +46,15 @@ export default function Main() {
                   />
                   </Stack>
                 </Stack>
-                <Stack component="section" padding={{xs: '1em' ,lg: '2em 20em'}}>
-                  <Typography variant="h2">Frequently Asked Questions</Typography>
-                  <Typography variant="p">
+                <Stack component="section" sx={{display: 'flex', flexDirection: 'column' , alignItems: 'center', justifyContent: 'center'}} padding={{xs: '1em' ,lg: '2em 20em'}}>
+                  <Typography variant="h2" sx={{textAlign:'center', padding: '1em'}} >Frequently Asked Questions</Typography>
+                  <Typography variant="p" sx={{textAlign:'center', padding: '1em'}}>
                     Here are some of our FAQs. If you have any other questions you’d
                     like answered please feel free to email us.
                   </Typography>
                   <AccordionSection />
+                    <ButtonCamp ButtonLabel='More info' Wd='100px' Cl='white'
+                             BColor=' hsl(231, 69%, 60%)' />
                 </Stack>
               </Stack>
     )
