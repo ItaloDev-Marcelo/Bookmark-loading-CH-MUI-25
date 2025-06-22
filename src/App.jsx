@@ -1,8 +1,9 @@
+import ButtonCamp from './components/comum-components/button/index'
+import NavBar from './components/nav/mob';
+
 function App() {
   return (
-     <>
-        <h1>Ola</h1>
-     </>
+        <NavBar/>
   );
 }
 
