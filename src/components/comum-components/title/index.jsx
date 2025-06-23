@@ -1,7 +1,7 @@
 import {Typography} from "@mui/material"
 
-const Title = ({headLeval}) => {
-    return <Typography variant={headLeval}></Typography>
+const Title = ({headLeval, Text}) => {
+    return <Typography variant={headLeval}>{Text}</Typography>
 }
 
 export default Title
