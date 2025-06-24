@@ -71,3 +71,19 @@ button img  {
 button > img:hover {
 opacity: 0.5;
 }
+
+
+
+@media(min-width:1440px) {
+  .px-large {
+     padding: 0 5em;
+  }
+
+  .top-space {
+     margin-top: 5em;
+  }
+
+  .px-large-nav {
+     padding: 2em 7em;
+  }
+}

@@ -1,7 +1,7 @@
-import {Button} from "@mui/material"
+
 
 const ButtonCamp = ({title = 'More', btnStyle}) => {
-   return <Button className={btnStyle}>{title}</Button>
+   return <button className={btnStyle}>{title}</button>
 }
 
 export default ButtonCamp 

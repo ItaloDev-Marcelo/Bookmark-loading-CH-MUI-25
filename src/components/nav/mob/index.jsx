@@ -17,7 +17,7 @@ export default function NavBar() {
     }
 
     return (
-        <header className='flex flex-row justify-between items-center h-[120px] px-7  '>
+        <header className='flex flex-row justify-between items-center h-[120px] px-7 md:px-10  '>
              
              <a href='#' style={{display: !menu ? 'flex' : 'none'}} >
                 <Img imageUrl={Logo} />

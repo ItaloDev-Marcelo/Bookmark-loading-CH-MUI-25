@@ -1,7 +1,6 @@
-import {Typography} from "@mui/material"
 
-const Paragraph = ({Text}) => {
-    return <Typography component='p'>{Text}</Typography>
+const Paragraph = ({Text, textStyle}) => {
+    return <p className={textStyle}>{Text}</p>
 }
 
 export default Paragraph

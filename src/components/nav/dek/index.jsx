@@ -6,7 +6,7 @@ export default function DeskBar() {
 
     const {Logo} = bankOfImagens
     return (
-         <header className='flex flex-row justify-between items-center px-[7em] py-[2.5em]'>
+         <header className='flex flex-row justify-between items-center px-[2em] py-[2.5em] px-large-nav'>
               <a href='#index.html'>
                 <Img imageUrl={Logo} />
               </a>
