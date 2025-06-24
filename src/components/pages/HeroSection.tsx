@@ -12,7 +12,7 @@ export default function Hero() {
 
     const {Hero} = bankOfImagens
     return (
-        <section>
+        <section id='home'>
              <Box sx={{display: {xs: 'block', lg: 'none'}}}>
                 <NavBar/>
              </Box>
@@ -22,14 +22,14 @@ export default function Hero() {
              </Box>
 
              <div className="flex flex-col justify-center items-center  lg:flex-row-reverse 
-             lg:justify-between lg:px-4 px-large  top-space">
+             lg:justify-between lg:px-4 px-large top-space">
        
                <figure className="md:p-4">
                   <Img imageUrl={Hero} imageAlt="hero banner" />
                </figure>
 
                 <div className="flx flex-col px-4 py-2 lg:py-1 items-center text-center 
-                lg:text-left md:items-center md:w-[75%]  lg:w-[50%] md:my-2">
+                lg:text-left md:items-center md:w-[75%]  lg:w-[50%] my-2">
                 <h1 className="text-[1.7em] md:text-[2em] lg:text-[3em] font-semibold my-2 lg:my-1 " >A Simple Bookmark Manager</h1>
                 <Paragraph Text=' A clean and simple interface to organize your favourite websites. Open a new 
   browser tab and see your sites load instantly. Try it for free.' 
