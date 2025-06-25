@@ -1,12 +1,13 @@
-import ButtonCamp from './components/comum-components/button/index'
-import NavBar from './components/nav/mob';
-import DeskBar from './components/nav/dek';
-import Hero from './components/pages/HeroSection';
 
+import Hero from './components/pages/HeroSection';
+import FeaturesSection from './components/pages/FeaturesSection'
 function App() {
   return (
         <>
         <Hero/>
+        <main>
+          <FeaturesSection />
+        </main>
         </>
   );
 }
