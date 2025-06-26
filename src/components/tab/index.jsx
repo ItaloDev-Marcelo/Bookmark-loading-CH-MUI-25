@@ -13,13 +13,13 @@ export default function tabSlider() {
     }
 
     return (
-        <div>
+        <div >
           <TabNav selectedLink={selectedLink} tabValue={tabValue} />  
           {
    tabValue === 0 ? 
-           <SlideComponent image={Tab1} title={tabList[0]} text={slideText0} textSt=''  btnTitle='More Info'  btnStyle=''  /> : tabValue === 1 ?
-           <SlideComponent image={Tab2} title={tabList[1]} text={slideText1} textSt=''  btnTitle='More Info'  btnStyle=''  /> :
-           <SlideComponent image={Tab3} title={tabList[2]} text={slideText2} textSt=''  btnTitle='More Info'  btnStyle=''  />
+           <SlideComponent image={Tab1} title={tabList[0]} text={slideText0}   btnTitle='More Info'    /> : tabValue === 1 ?
+           <SlideComponent image={Tab2} title={tabList[1]} text={slideText1}   btnTitle='More Info'    /> :
+           <SlideComponent image={Tab3} title={tabList[2]} text={slideText2}   btnTitle='More Info'    />
           }
         </div>
     )
