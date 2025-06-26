@@ -4,7 +4,7 @@ import ButtonCamp from '../../comum-components/button/index'
 const SlideComponent = ({image, text, title, btnTitle }) => {
 
      return (
-        <section className='flex flex-col lg:flex-row lg:mt-10 bg-amber-300  '>
+        <section className='flex flex-col lg:flex-row lg:mt-10 '>
             <figure className='lg:w-[50%] lg:mr-7'>
                 <Img imageUrl={image} />
             </figure>

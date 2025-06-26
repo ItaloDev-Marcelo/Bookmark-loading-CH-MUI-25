@@ -22,7 +22,7 @@ export default function Hero() {
              </Box>
 
              <div className="flex flex-col justify-center items-center  lg:flex-row-reverse 
-             lg:justify-between lg:px-4 px-large top-space">
+             lg:justify-between lg:px-4 px-large my-5 top-space">
        
                <figure className="md:p-4">
                   <Img imageUrl={Hero} imageAlt="hero banner" />
