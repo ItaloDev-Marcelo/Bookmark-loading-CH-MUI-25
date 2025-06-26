@@ -14,7 +14,7 @@ export default function tabSlider() {
 
     return (
         <div>
-          <TabNav selectedLink={selectedLink} />  
+          <TabNav selectedLink={selectedLink} tabValue={tabValue} />  
           {
    tabValue === 0 ? 
            <SlideComponent image={Tab1} title={tabList[0]} text={slideText0} textSt=''  btnTitle='More Info'  btnStyle=''  /> : tabValue === 1 ?

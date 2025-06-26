@@ -32,10 +32,7 @@ export const bankOfImagens = {
      Tab3,
      Hero,
      Logo,
-     LogoWhite,
-     Chrome,
-     Firefox,
-     Opera
+     LogoWhite
 }
 
 export const tabList = ['Bookmark in one click','Intelligent search','Share your bookmarks']
@@ -43,3 +40,27 @@ export const slideText0 = 'Organize your bookmarks however you like. Our simple 
 export const slideText1 = 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.'
 export const slideText2 = ' Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.'
 export const pText = 'Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.'
+
+
+export const PriceSectionP = "We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize."
+
+export const CardData = [
+     {
+          icon: Chrome,
+          title: 'Add to Chrome',
+          subtitle: 'Minimum version 62',
+          buttonText: 'Add & Install Extension'
+     },
+     {
+          icon: Firefox,
+          title: 'Add to Firefox',
+          subtitle: 'Minimum version 55',
+          buttonText: 'Add & Install Extension'
+     },
+     {
+          icon: Opera,
+          title: 'Add to Opera',
+          subtitle: 'Minimum version 46',
+          buttonText: 'Add & Install Extension'
+     }
+]

@@ -73,6 +73,12 @@ opacity: 0.5;
 }
 
 
+.tab-bar ul li {
+  position: relative;
+}
+
+
+
 @media(min-width:1024px) {
   #home {
   position: relative;
