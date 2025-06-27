@@ -5,6 +5,7 @@ import Paragraph from '../comum-components/paragraph/index'
 import ButtonCamp from '../comum-components/button/index' 
 import {bankOfImagens} from '../data/index'
 import Img from  "../comum-components/ImageCamp/index"
+import Section from "../comum-components/section/Section";
 
 
 
@@ -12,8 +13,8 @@ export default function Hero() {
 
     const {Hero} = bankOfImagens
     return (
-        <section id='home'>
-             <Box sx={{display: {xs: 'block', lg: 'none'}}}>
+        <Section id='home' modole=''>
+              <Box sx={{display: {xs: 'block', lg: 'none'}}}>
                 <NavBar/>
              </Box>
 
@@ -41,7 +42,6 @@ export default function Hero() {
                 </div>
                 </div>
              </div>
-
-        </section>
+        </Section>
     )
 }

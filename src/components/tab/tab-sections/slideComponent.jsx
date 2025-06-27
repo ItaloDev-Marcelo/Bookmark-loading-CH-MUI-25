@@ -9,7 +9,7 @@ const SlideComponent = ({image, text, title, btnTitle }) => {
                 <Img imageUrl={image} />
             </figure>
             <div className='lg:w-[400px] flex flex-col text-center lg:items-start lg:text-left'>
-                <h3 className='mt-4'>{title}</h3>
+                <h3 className='mt-4 text-[1.5em] lg:text-[2.5em]'>{title}</h3>
                 <Paragraph Text={text} textStyle='my-4' />
                 <ButtonCamp title={btnTitle} btnStyle='bg-blue-400 rounded-[7px] font-semibold h-[40px] cursor-pointer hover:bg-blue-300 p-2 text-white' />
             </div>
