@@ -13,7 +13,7 @@ export default function tabSlider() {
     }
 
     return (
-        <div >
+        <div>
           <TabNav selectedLink={selectedLink} tabValue={tabValue} />  
           {
    tabValue === 0 ? 

@@ -64,3 +64,4 @@ export const CardData = [
           buttonText: 'Add & Install Extension'
      }
 ]
+

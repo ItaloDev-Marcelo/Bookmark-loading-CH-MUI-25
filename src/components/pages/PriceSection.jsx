@@ -6,15 +6,19 @@ export default function PriceSection() {
     return (
         <Section modole='py-[4em]  flex flex-col justify-center items-center text-center'>
             <div className='lg:px-[24em]'>
-                <h2 className='py-7 text-[1.7em] lg:text-[2.2em] '> Download the extension</h2>
-              <Paragraph Text={PriceSectionP} textStyle='mb-2' />   
+                <h2 className='py-7 text-[1.7em] lg:text-[2.2em] font-semibold text-Blue-950'> Download the extension</h2>
+              <Paragraph Text={PriceSectionP} textStyle='mb-2 text-gray-400' />   
 
             </div>
           
               <div className='flex my-10 lg:my-15 flex-col lg:flex-row '>
                  {
                   CardData.map(({icon, title, subtitle, buttonText},index) =>  (
-                    <PriceCardComponent key={index} icon={icon} title={title} subtitle={subtitle}_ btnTitle={buttonText} />
+                    <PriceCardComponent key={index}
+                     icon={icon} 
+                     title={title}
+                      subtitle={subtitle}
+                       btnTitle={buttonText} />
                   ))
                  }
               </div>
