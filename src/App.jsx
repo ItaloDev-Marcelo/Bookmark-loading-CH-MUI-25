@@ -3,6 +3,7 @@ import FeaturesSection from './components/pages/FeaturesSection'
 import PriceSection from './components/pages/PriceSection';
 import AskedSection from './components/pages/AskedSection';
 import NewsSection from './components/pages/NewsSection'
+import Footer from './components/pages/Footer';
 function App() {
   return (
         <>
@@ -11,8 +12,9 @@ function App() {
           <FeaturesSection />
           <PriceSection/>
           <AskedSection/>
-          <NewsSection/>
           </main>
+          <NewsSection/>
+          <Footer/>
         </>
   );
 }
