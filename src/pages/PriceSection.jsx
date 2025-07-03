@@ -8,8 +8,8 @@ import PriceCardComponent from '../components/price-cards/index';
 
 export default function PriceSection() {
     return (
-        <Section modole='py-[4em]  flex flex-col justify-center items-center text-center'>
-            <div className='lg:px-[24em]'>
+        <Section modole='py-[3.5em] lg:py-[4em]  flex flex-col justify-center items-center text-center'>
+            <div className=' px-5 lg:px-[30em]'>
                 <h2 className='py-7 text-[1.7em] lg:text-[2.2em] font-semibold text-Blue-950'> Download the extension</h2>
               <Paragraph Text={PriceSectionP} textStyle='mb-2 text-gray-400' />   
 

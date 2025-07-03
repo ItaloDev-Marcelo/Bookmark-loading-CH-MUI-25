@@ -8,7 +8,8 @@ import TabNav from "../tab/tab-nav/tabNav";
 import SlideComponent from '../tab/tab-sections/slideComponent'
 
 export default function tabSlider() {
-    const [tabValue, setTabValue] = useState(0);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [tabValue, setTabValue] = useState(0)
     const {Tab1,Tab2,Tab3} = ImagensBank;
     const selectedLink = (tabItem) => {
         setTabValue(tabItem);

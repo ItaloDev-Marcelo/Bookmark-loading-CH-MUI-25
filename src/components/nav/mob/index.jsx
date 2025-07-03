@@ -5,7 +5,7 @@ import Img from '../../comum-components/ImageCamp/index';
 import UseToggleBar from './hook/UseToggleBar';
 export default function NavBar() {
     const {Logo, LogoWhite, Hamburger, Close, Facebook, Twitter} = ImagensBank;
-    const {menu,handleOpen,handleClose} = UseToggleBar;
+    const {menu,handleOpen,handleClose} = UseToggleBar();
 
     return (
         <header className='flex flex-row justify-between items-center h-[120px] px-7 md:px-10  '>
@@ -18,7 +18,7 @@ export default function NavBar() {
              </button>
 
              <nav  style={{display: menu ? 'flex' : 'none'}} className='flex flex-col px-7 
-              absolute top-0 left-0 h-[100%] w-[100%] bg-blue-t-950'>
+              fixed  top-0 left-0 h-[100%] w-[100%] bg-blue-t-950'>
                 <div className='flex flex-row justify-between my-[3.2em] z-50'>
                     <a href='#'>
                 <Img imageUrl={LogoWhite} />

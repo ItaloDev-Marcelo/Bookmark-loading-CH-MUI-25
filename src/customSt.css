@@ -15,6 +15,11 @@
 
 
 
+.row-icons  img:hover {
+   opacity:.5;
+}
+
+
 .line:nth-of-type(4) {
  display: none;
  visibility: hidden;
@@ -76,6 +81,11 @@ opacity: 0.5;
   margin: 1em 0;
 }
 
+.tab-bar hr {
+  color: gray;
+  opacity:.5;
+}
+
 
 .tab-bar ul li {
   position: relative;
@@ -90,7 +100,7 @@ opacity: 0.5;
   position: absolute;
   bottom:-.6em;
   left:25%;
-  background: red;
+  background: hsl(0, 94%, 66%);
   width:50%;
   height: 3px;
 }
@@ -106,9 +116,9 @@ box-shadow: -1px 2px 5px 2px rgba(180, 178, 178, 0.363)
 
 
 #home  button:nth-of-type(1):hover, .card button:hover {
-    outline: 1px solid blue;
+    outline: 1px solid hsl(231, 69%, 60%);
     background-color: transparent;
-    color: blue;
+    color: hsl(231, 69%, 60%);
 }
 
 #home  button:nth-of-type(2):hover{
@@ -129,6 +139,12 @@ label .error-icon {
   right:.5em;
 }
 
+
+@media(min-width:800px) {
+  figure img {
+    margin:0 auto;
+  }
+}
 
 
 
@@ -205,6 +221,10 @@ label .error-icon {
   }
   #asked {
     margin: 12em 0;
+  }
+
+   figure img {
+    margin:auto;
   }
 }
 

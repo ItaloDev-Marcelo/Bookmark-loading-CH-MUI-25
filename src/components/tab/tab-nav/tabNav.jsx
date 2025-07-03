@@ -3,7 +3,7 @@ import {tabList} from '../../../data/tabTitleList';
 
 export default function TabNav({selectedLink, tabValue}) {
     return (
-        <nav className="tab-bar lg:flex  lg:flex-col lg:items-center">
+        <nav className="tab-bar lg:flex  lg:flex-col lg:items-center px-6 ">
           <hr className='lg:hidden' />
           <ul className="lg:flex lg:flex-row lg:justify-center">
              {
@@ -14,7 +14,7 @@ export default function TabNav({selectedLink, tabValue}) {
                'tab active my-2  lg:my-0 lg:mx-4 cursor-pointer' : 
                'tab my-2 cursor-pointer  lg:my-0 lg:mx-4 ' } 
                 onClick={() => selectedLink(index)} >{item}</li>
-            <hr className='md:hidden'/>
+            <hr className='lg:hidden'/>
                </>
             ))
            }
