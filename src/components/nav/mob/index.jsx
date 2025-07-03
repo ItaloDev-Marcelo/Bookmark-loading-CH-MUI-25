@@ -1,24 +1,14 @@
-
-import {navList, bankOfImagens} from '../../data/index'
-import Img from '../../comum-components/ImageCamp/index'
-import {useState} from 'react';
+//
+import {navList} from '../../data/navList';
+import {ImagensBank} from '../../data/ImagensBank';
+import Img from '../../comum-components/ImageCamp/index';
+import UseToggleBar from './hook/UseToggleBar';
 export default function NavBar() {
-
-    const {Logo, LogoWhite, Hamburger, Close, Facebook, Twitter} = bankOfImagens;
-
-    const [menu, setMenu] = useState(false)
-
-    const handleOpen = () => {
-       setMenu(true)
-    }
-
-    const handleClose = () => {
-       setMenu(!menu)
-    }
+    const {Logo, LogoWhite, Hamburger, Close, Facebook, Twitter} = ImagensBank;
+    const {menu,handleOpen,handleClose} = UseToggleBar;
 
     return (
         <header className='flex flex-row justify-between items-center h-[120px] px-7 md:px-10  '>
-             
              <a href='#' style={{display: !menu ? 'flex' : 'none'}} >
                 <Img imageUrl={Logo} />
              </a>
@@ -54,7 +44,6 @@ export default function NavBar() {
                         } )
                     }
                 </ul>
-
                  <div className='relative flex flex-row justify-center mt-[10em]'>
                     <button className='mr-5'>
                         <Img imageUrl={Facebook} />

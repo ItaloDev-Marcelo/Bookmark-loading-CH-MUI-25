@@ -1,11 +1,12 @@
+//
 import ButtonCamp from "../comum-components/button"
 import Img from "../comum-components/ImageCamp"
-import { bankOfImagens } from "../data"
+import { ImagensBank } from "../../data/ImagensBank"
 
 
 const PriceCardComponent = ({icon,title,subtitle,btnTitle}) => {
+    const {Dots} = ImagensBank;
 
-    const {Dots} = bankOfImagens
     return (
         <article className=" card flex flex-col justify-center items-center
          bg-white h-[350px] lg:h-[355px] rounded-[7px] w-[300px]

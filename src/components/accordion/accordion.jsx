@@ -1,13 +1,14 @@
+//packages Terceiros 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import {AccordionData, bankOfImagens} from '../data/index'
+//
+import {ImagensBank} from '../../data/ImagensBank'
+import {AccordionData} from '../../data/accordionData'
 
 export default function AccordionComponent() {
-
-
-  const {Arrow} = bankOfImagens
+  const {Arrow} = ImagensBank
 
     return (
        <div className='px-3 py-2 lg:mx-10 accordion-container'>

@@ -1,7 +1,12 @@
-import Paragraph from '../comum-components/paragraph/index'
-import Section from '../comum-components/section/Section'
-import {PriceSectionP, CardData} from '../data/index'
-import PriceCardComponent from '../price-cards'
+//
+
+import {CardData} from '../data/cardData';
+import {PriceSectionP} from '../data/longParagraphs';
+
+import Paragraph from '../components/comum-components/paragraph/index';
+import Section from '../components/comum-components/section/Section';
+import PriceCardComponent from '../components/price-cards';
+
 export default function PriceSection() {
     return (
         <Section modole='py-[4em]  flex flex-col justify-center items-center text-center'>
@@ -14,11 +19,12 @@ export default function PriceSection() {
               <div className='flex my-10 lg:my-15 flex-col lg:flex-row '>
                  {
                   CardData.map(({icon, title, subtitle, buttonText},index) =>  (
-                    <PriceCardComponent key={index}
-                     icon={icon} 
-                     title={title}
-                      subtitle={subtitle}
-                       btnTitle={buttonText} />
+                    <PriceCardComponent 
+                    key={index}
+                    icon={icon} 
+                    title={title}
+                    subtitle={subtitle}
+                    btnTitle={buttonText} />
                   ))
                  }
               </div>

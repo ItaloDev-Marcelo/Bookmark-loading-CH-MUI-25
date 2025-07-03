@@ -1,0 +1,1 @@
+export const footerList = ['FEACTURES','PRICING','CONTACT'];

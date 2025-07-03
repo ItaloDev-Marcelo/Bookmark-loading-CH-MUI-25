@@ -1,11 +1,11 @@
-import Img from "../comum-components/ImageCamp";
-import { bankOfImagens, footerList } from "../data";
-
-
+//
+import Img from "../components/comum-components/ImageCamp";
+import { footerList } from "../data/footerList";
+import { ImagensBank} from "../data/ImagensBank";
 
 export default function Footer() {
 
-    const {Facebook, Twitter, LogoFotter}  = bankOfImagens;
+    const {Facebook, Twitter, LogoFotter} = ImagensBank;
 
     return (
         <footer className='bg-Blue-950

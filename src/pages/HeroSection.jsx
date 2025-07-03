@@ -1,18 +1,16 @@
+//packages de terceiros
 import { Box } from "@mui/material";
+//
 import NavBar from "../nav/mob";
 import DeskBar from "../nav/dek";
-import Paragraph from '../comum-components/paragraph/index'
-import ButtonCamp from '../comum-components/button/index' 
-import {bankOfImagens} from '../data/index'
-import Img from  "../comum-components/ImageCamp/index"
+import Paragraph from '../comum-components/paragraph/index';
+import ButtonCamp from '../comum-components/button/index' ;
+import {ImagensBank} from '../data/ImagensBank';
+import Img from  "../comum-components/ImageCamp/index";
 import Section from "../comum-components/section/Section";
 
-
-
 export default function Hero() {
-
-    const {Hero} = bankOfImagens;
-
+    const {Hero} = ImagensBank;
 
     return (
         <Section id='home' modole=''>

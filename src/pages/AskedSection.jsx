@@ -1,8 +1,8 @@
+//
 import AccordionComponent from "../accordion/accordion";
 import ButtonCamp from "../comum-components/button";
 import Paragraph from "../comum-components/paragraph";
 import Section from "../comum-components/section/Section";
-
 
 export default function AskedSection(){
     return (

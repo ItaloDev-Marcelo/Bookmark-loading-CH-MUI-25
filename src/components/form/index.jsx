@@ -1,29 +1,10 @@
-import {useState} from 'react'
-import {bankOfImagens} from '../data/index'
-
+//
+import {ImagensBank} from '../../data/ImagensBank';
+import UseSimpleForm from './hook/UseSimpleForm';
 
 const Form = () => {
-
-  const [email, setEmail] = useState('')
-  const [error, setError] = useState(false)
-  const {Error} = bankOfImagens
-
-  const handleInput = (event) => {
-      const {value} = event.target;
-      setEmail(value)
-  }
-
-  const handleSubmitForm = (e) => {
-     e.preventDefault()
-     
-     
-     if(email.length > 0) {
-       setError(false)
-     }else {
-       setError(true)
-       setEmail("")
-     }
-  }
+  const {Error} = ImagensBank;
+  const {handleSubmitForm, email,error,handleInput} = UseSimpleForm;
 
   return (
     <form onSubmit={handleSubmitForm}>
@@ -39,13 +20,11 @@ const Form = () => {
           </label>
           <span className={error ? 'visible' : 'hidden'}>
                 <em>Whoops, make sure it's an email</em></span>
-             
           </div>
          <button type='submit' className='bg-red-400 mt-4 rounded-[5px] lg:mt-0 text-white font-semibold hover:bg-transparent
           hover:outline-solid hover:outline-red-500 cursor-pointer hover:text-red-400 h-[40px] lg:h-[50px]
            w-[100%] lg:w-[200px] lg:ml-2'>Contact us</button>
           </div>
-
     </form>
   )
 }
