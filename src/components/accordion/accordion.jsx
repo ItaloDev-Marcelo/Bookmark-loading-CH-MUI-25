@@ -17,8 +17,8 @@ export default function AccordionComponent() {
                 <Accordion disableGutters sx={{margin:0,borderBottom: '1px solid gray', 
                 backgroundColor: 'transparent', boxShadow: 'none'}} key={Math.random()}>
                      <AccordionSummary sx={{"&:hover": {color:'red'}}} expandIcon={<img src={Arrow} alt='' />}aria-controls={`painel-${item.id}`} id={`header-${item.id}`}>
-                       <Typography component='span'  >
-                           <strong>{item.question}</strong>
+                       <Typography component='span'sx={{fontWeight: 500}}  >
+                           {item.question}
                        </Typography>
                      </AccordionSummary>
                      <AccordionDetails>

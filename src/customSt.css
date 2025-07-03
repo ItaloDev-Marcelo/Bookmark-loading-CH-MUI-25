@@ -223,6 +223,15 @@ label .error-icon {
     margin: 12em 0;
   }
 
+  .top-space{
+    padding: 0 2.5em;
+  }
+
+  .px-large-nav{
+    padding: 3em; 
+    margin-left: .5em;
+  }
+
    figure img {
     margin:auto;
   }
@@ -239,6 +248,9 @@ label .error-icon {
   .accordion-container {
     margin: 0 15em;
   }
+
+
+
 }
 
 @media(min-width:1440px) {
@@ -251,6 +263,6 @@ label .error-icon {
   }
 
   .px-large-nav {
-     padding: 2em 7em;
+     padding: 4em 7em;
   }
 }
