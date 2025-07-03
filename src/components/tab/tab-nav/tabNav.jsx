@@ -1,5 +1,5 @@
 //
-import {tabList} from '../../data/tabTitleList';
+import {tabList} from '../../../data/tabTitleList';
 
 export default function TabNav({selectedLink, tabValue}) {
     return (

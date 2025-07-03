@@ -1,6 +1,6 @@
 //
-import Section from '../comum-components/section/Section'
-import Form from '../form'
+import Section from '../components/comum-components/section/Section'
+import Form from '../components/form/index'
 
 export default  function NewsSection() {
   return (

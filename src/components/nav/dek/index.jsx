@@ -1,7 +1,7 @@
 //
 import Img from '../../comum-components/ImageCamp'
-import {ImagensBank} from '../../data/ImagensBank'
-import {navList} from '../../data/navList'
+import {ImagensBank} from '../../../data/ImagensBank'
+import {navList} from '../../../data/navList'
 
 export default function DeskBar() {
     const {Logo} = ImagensBank;

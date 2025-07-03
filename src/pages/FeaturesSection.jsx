@@ -1,7 +1,7 @@
-import Paragraph from '../comum-components/paragraph/index'
-import TabSlider from '../tab/index'
+import Paragraph from '../components/comum-components/paragraph/index'
+import TabSlider from '../components/tab/index'
 import { pText } from '../data/index'
-import Section from '../comum-components/section/Section'
+import Section from '../components/comum-components/section/Section'
 export default function FeaturesSection() {
 
     return (

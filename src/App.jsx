@@ -1,9 +1,10 @@
-import Hero from './components/pages/HeroSection';
-import FeaturesSection from './components/pages/FeaturesSection'
-import PriceSection from './components/pages/PriceSection';
-import AskedSection from './components/pages/AskedSection';
-import NewsSection from './components/pages/NewsSection'
-import Footer from './components/pages/Footer';
+import Hero from './pages/HeroSection';
+import FeaturesSection from './pages/FeaturesSection'
+import PriceSection from './pages/PriceSection';
+import AskedSection from './pages/AskedSection';
+import NewsSection from './pages/NewsSection'
+import Footer from './pages/Footer';
+
 function App() {
   return (
         <>

@@ -1,5 +1,5 @@
 
-import ImagensBank from './ImagensBank';
+import { ImagensBank }from './ImagensBank';
 const {Chrome,Firefox,Opera} = ImagensBank;
 
 export const CardData = [

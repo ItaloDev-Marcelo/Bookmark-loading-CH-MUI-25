@@ -1,8 +1,8 @@
 //
-import AccordionComponent from "../accordion/accordion";
-import ButtonCamp from "../comum-components/button";
-import Paragraph from "../comum-components/paragraph";
-import Section from "../comum-components/section/Section";
+import AccordionComponent from "../components/accordion/accordion";
+import ButtonCamp from "../components/comum-components/button";
+import Paragraph from "../components/comum-components/paragraph";
+import Section from "../components/comum-components/section/Section";
 
 export default function AskedSection(){
     return (

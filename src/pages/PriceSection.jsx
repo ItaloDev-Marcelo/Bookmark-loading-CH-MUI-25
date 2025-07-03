@@ -2,10 +2,9 @@
 
 import {CardData} from '../data/cardData';
 import {PriceSectionP} from '../data/longParagraphs';
-
 import Paragraph from '../components/comum-components/paragraph/index';
 import Section from '../components/comum-components/section/Section';
-import PriceCardComponent from '../components/price-cards';
+import PriceCardComponent from '../components/price-cards/index';
 
 export default function PriceSection() {
     return (

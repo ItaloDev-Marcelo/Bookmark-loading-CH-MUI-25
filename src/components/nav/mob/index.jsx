@@ -1,6 +1,6 @@
 //
-import {navList} from '../../data/navList';
-import {ImagensBank} from '../../data/ImagensBank';
+import {navList} from '../../../data/navList';
+import {ImagensBank} from '../../../data/ImagensBank';
 import Img from '../../comum-components/ImageCamp/index';
 import UseToggleBar from './hook/UseToggleBar';
 export default function NavBar() {
