@@ -226,6 +226,13 @@ label .error-icon {
    figure img {
     margin:auto;
   }
+  .price-header  {
+    padding: 0 30em;
+  }
+
+  .accordion-container {
+    padding: 0 10em;
+  }
 }
 
 @media(min-width:1366px) {
