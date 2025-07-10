@@ -18,7 +18,7 @@ const PriceCardComponent = ({icon,title,subtitle,btnTitle}) => {
             </div> 
               <Img imageUrl={Dots} />
             <div>
-                <ButtonCamp title={btnTitle} btnStyle='bg-Blue-600 mt-8 lg:mt-13 w-[250px]
+                <ButtonCamp title={btnTitle} btnStyle='bg-Blue-600 mt-8 lg:mt-5 w-[250px]
                  h-[50px] text-white hover:bg-blue-400 rounded-[7px] cursor-pointer font-semibold' />
             </div>
         </article>
